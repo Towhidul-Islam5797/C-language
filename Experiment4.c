@@ -1,20 +1,18 @@
 #include <stdio.h>
-//void pyramid(int n);
-/*int main()
+void pyramid(int n);
+int main()
 {
-    int n ;
-    printf("Enter the value of N:");
+    int n ,m ;
+    printf("Enter the value of N:"); //will prompt the user for the number of * for each rows
     scanf("%d",&n);
 
-    void pyramid(int n);
+    pyramid(n); //the UDF function for a pyramid
 
-}*/
-//void pyramid(int n)
-void main() //n(7) is the count of ì*î in final row
+}
+void pyramid(int n)
+ //n(7) is the count of ‚Äú*‚Äù in final row
 {
-    int i, j ,n;
-    printf("Enter the value of N:");
-    scanf("%d",&n);
+    int i, j ;
 
     for(i = 1 ; i <= n; i += 2)   //Loop from one row to another row
         {
