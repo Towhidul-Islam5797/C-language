@@ -23,6 +23,6 @@ void power(int a, int b) // this is the UDF function
     for(i= 1 ; i<=b ; i++) // loop for the defining times of running 
         {
             result *=  a; //it actually brings the result of power 
-            printf("%d\n",result);
+            printf(" %d\n",result);
         }
 }
