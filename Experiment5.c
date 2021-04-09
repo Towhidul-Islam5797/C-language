@@ -1,5 +1,5 @@
 #include <stdio.h>
-//void pyramid(int n);
+int pyramid(int n);
 int main()
 {
     int n ,y;
@@ -9,8 +9,7 @@ int main()
      y = pyramid(n);
 
 }
-void pyramid(int n)
- //n(7) is the count of “*” in final row
+int pyramid(int n)  //n(7) is the count of â€œ*â€ in final row
 {
     int i, j ;
 
