@@ -13,7 +13,7 @@ int main ()
 
     printf("Enter the operation mode: \n");
     printf("Addition: A, Subtraction: S, Multiplication: M, Division: D \n");
-    scanf("%c", &a); // a = ‘A’ or ‘S’ or ‘M’ or ‘D’
+    scanf("%c", &a); // a = â€˜Aâ€™ or â€˜Sâ€™ or â€˜Mâ€™ or â€˜Dâ€™
     printf("Enter the value1 and value2: \n");
     scanf("%d %d", &x, &y); // x =3 , y=4
 
@@ -66,7 +66,7 @@ return result;
 
 float div_val(int p, int q)
 {
-    result = (float) p/q; //type casting ¾ = 0.75
+    result = (float) p/q; //type casting Â¾ = 0.75
 
 return result;
 }
