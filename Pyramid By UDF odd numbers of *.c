@@ -1,12 +1,12 @@
 #include <stdio.h>
-int pyramid(int n);
+int pyramid(int n);//Intializing a UDF for a pyramid
 int main()
 {
     int n ,y;
     printf("Enter the value of N:");
     scanf("%d",&n);
 
-     y = pyramid(n);
+     y = pyramid(n); //calling the function
 
 }
 int pyramid(int n)  //n(7) is the count of “*” in final row
@@ -25,5 +25,9 @@ int pyramid(int n)  //n(7) is the count of “*” in final row
                 }
             printf("\n");
         }
-
+/* making a pattern of
+  *
+ ***
+*****
+*/
 }
